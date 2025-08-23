@@ -15,9 +15,8 @@ public class OOPIntro {
 Hybrid Inheritnace = combination of heirarchial and multilevel
 muiltiple Inheritance = Class C extends ClassA, ClassB-- not possible in Java
 
-    2. Polymorphism -- many forms
-    3. Abstraction
-    4. Interface
+    2. Polymorphism (Overloading, Overriding)-- many forms
+    3. Abstraction (Abstract Class, Interface)
     5. Encapsulation
      */
 

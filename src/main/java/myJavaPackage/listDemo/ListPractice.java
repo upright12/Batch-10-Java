@@ -1,5 +1,6 @@
 package myJavaPackage.listDemo;
 
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -56,8 +57,42 @@ public class ListPractice {
         }
 
 
+/* make a list of car (Nishan, Toyota, Rickshaw, Leguna, Honda)
+
+     */
+        public void carList(){
+    ArrayList <String> cars = new ArrayList<>();
+    cars.add("Nishan");
+    cars.add("Toyota");
+    cars.add("Rickshaw");
+    cars.add("Leguna");
+    cars.add("Honda");
+
+            System.out.println(cars);
+
+ int carSize =   cars.size();
+ System.out.println(carSize);
+
+   boolean empty =   cars.isEmpty();
+            System.out.println(empty);
+
+         cars.add("Public bus");
+         cars.add("Double Decker");
+         cars.remove(3);
+
+            System.out.println(cars);
+
+
+        for (int i = 0; i<cars.size(); i++ ){
+            System.out.println(cars.get(i));
+        }
+
+
+        }
+
     public static void main(String[] args) {
       ListPractice obj = new ListPractice();
-      obj.ArraylistDemo();
+     // obj.ArraylistDemo();
+        obj.carList();
     }
 }
