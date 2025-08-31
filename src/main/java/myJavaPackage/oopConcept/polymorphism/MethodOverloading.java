@@ -1,7 +1,10 @@
 package myJavaPackage.oopConcept.polymorphism;
 
 public class MethodOverloading {
-
+/*
+Method Overloading happens when two or more methods in the same class
+ have the same name but different parameter lists
+ */
     public void add(int a){
         System.out.println(a+1);
     }

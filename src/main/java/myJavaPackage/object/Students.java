@@ -8,7 +8,6 @@ public class Students {
     boolean isStudent;
 
 
-
     public void study(){
         System.out.println("Students study at home");
     }

@@ -1,15 +1,15 @@
-package myJavaPackage.oopConcept.polymorphism;
+package myJavaPackage.oopConcept.polymorphism.overriding;
 
-public class Dogs extends OverRiding1 {
+public class Dogs extends Animal {
     /**
      * Purpose of this method is
      * created by Propa on ....
      * @param sound
      */
     @Override
-    public void animal(String sound){
+    public void sound(){
         String dog = "Lally";
-        System.out.println("Lally's sound is "+sound);
+        System.out.println(dog + " sound is barking");
     }
 
 
